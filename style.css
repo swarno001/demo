@@ -1,0 +1,40 @@
+  .t {
+            background: linear-gradient(to bottom, #87CEEB, #ffffff);
+            overflow: hidden; 
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            height: 100%;
+            width: 100%;
+        }
+        .c {
+            border: 0px solid black;
+        }
+        .rs {
+            grid-row: span 2;
+        }
+        .cs {
+            grid-column: span 2;
+            display: flex; /* Added to use flexbox for centering */
+            align-items: center; /* Center items vertically */
+            justify-content: center; /* Center items horizontally */
+        }
+        .image {
+            top: 0; /* Align the image to the top of the cell */
+            left: 0; /* Align the image to the left of the cell */
+            width: 100%; 
+            height: auto; /* Maintain aspect ratio */
+        }
+        .image1 {
+            top: 0; /* Align the image to the top of the cell */
+            left: 0; /* Align the image to the left of the cell */
+            width: 100%; 
+            height: auto; /* Maintain aspect ratio */
+        }
+        .foot1 {
+            font-size: 50px;
+            text-align: center;
+        }
+        .imgfoot {
+            width: 30%;
+            height: auto;
+        }
