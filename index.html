@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and Menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="t">
         <div class="c rs">
             <img src="barta.png" alt="Barta" class="image">
         </div>
-        <div class="c">2</div>
-        <div class="c">3</div>
-        <div class="c cs">
-            <img src="amon.png" alt="Barta" class="image1">
+        <div class="c">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+        <li><a href="khorip-1.html">খরিপ-১</a></li>
+        <li><a href="khorip-2.html">খরিপ-২</a></li>
+        <li><a href="robi.html">রবি</a></li>
+        <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="c cs foot1">Powered by </div>
+        <div class="c">
+        
+        <img class="images1" id="p" src="p.png">
+        <img class="images2" id="q" src="q.png">
+        <img class="images3" id="r" src="r.png">
+        
+        
+        </div>
+         <div class="c cs">
+         <div class="weather-info" id="temperature">Temperature: --°C</div>
+    <div class="weather-info" id="humidity">Humidity: --%</div>
+    
+    <div class="loader" id="loader"></div>  
+        </div>
+          <div class="c cs "><div id="bengali-date"></div>
+    <div id="date"></div></div>
         <div class="c cs">
-            <img src="Satyanweshi.png" alt="Barta" class="imgfoot">
+          <div id="carousel">
+        <button id="prevBtn">Previous</button>
+        <img class="image" id="image" src="amon.png" alt="Carousel Image">
+        <button id="nextBtn">Next</button>
+    </div>
+
+    
+        </div>
+          <div class="c cs foot1">&nbsp</div>
+           <div class="c cs foot1">&nbsp</div>
+          <div class="c cs foot1">&nbsp</div>
+            <div class="c cs foot1">&nbsp</div>
+        <div class="c cs foot1">Powered by</div>
+        <div class="c cs">
+            <img src="Satyanweshi.png" alt="Satyanweshi" class="imgfoot">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
